@@ -8,7 +8,7 @@
 def kilometer_conversion(kilometers):    
     miles = 0.0
     ######################
-    miles = kilometers * 0.6214
+    miles = kilometers * 0.621372
     #Created by Logan Gibson on 10/1/25
     #The program's name is "Kilometers to Miles Calculator"
     ######################    
