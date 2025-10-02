@@ -8,7 +8,9 @@
 def kilometer_conversion(kilometers):    
     miles = 0.0
     ######################
-    # WRITE YOUR CODE HERE
+    miles = kilometers * 0.6214
+    #Created by Logan Gibson on 10/1/25
+    #The program's name is "Kilometers to Miles Calculator"
     ######################    
 
 
@@ -22,5 +24,6 @@ if __name__ == '__main__':
     # Get User Input
     print('in main')
     # Call kilometer_conversion, don't forget to pass in the kilometer parameter!
-    
+    converted_kilometers = kilometer_conversion(float(input("What is the distance in kilometers?")))
     # Display the miles
+    print(f"Your distance is {converted_kilometers:.4f} miles.")
